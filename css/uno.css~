@@ -754,7 +754,7 @@ body {
 
 
 .icon-social-twitter:before {
-        content:"\f1e4";}
+        content:"\f1ff";}
 
 .icon-social-vimeo:before {
 	content: "\f1e5"; }
