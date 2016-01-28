@@ -1,6 +1,6 @@
 # Site settings
-title: Galyean
-description: 'I’m a student from HuaZhong University of Science and Technology in china. And I’m now working on something related to computer vision.'
+title: 慢生活
+description: '华中科技大学电信学院硕士,现在从事于计算机视觉方面的工作.</br>I’m a student from HuaZhong University of Science and Technology in China. And I’m now working on something related to computer vision.'
 url: 'http://localhost:4000' 
 baseurl: /
 # google_analytics: 'UA-XXXXXX-X'
@@ -8,9 +8,7 @@ baseurl: /
 author:
   name: 'Galyean'
   email: i_am_path@163.com
-  twitter_username: joshgerdes
   github_username:  Galyean
-  linkedin_username:  joshgerdes
 
 # Build settings
 destination: _site

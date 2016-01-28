@@ -20,7 +20,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	z-index: 2001;
+	z-index: 2000;
 	visibility: hidden;
 	opacity: 0;
 	background: rgba( 150, 150, 150, 0.9 );
@@ -32,17 +32,15 @@
 
 .avgrund-contents {
 	position: relative;
-	padding: 20px;
-	max-width: 400px;
 	height: 100%;
 	margin: auto;
 }
 	.avgrund-active .avgrund-contents {
-		-webkit-filter: blur(2px);
-		   -moz-filter: blur(2px);
-		    -ms-filter: blur(2px);
-		     -o-filter: blur(2px);
-		        filter: blur(2px);
+		-webkit-filter: blur(3px);
+		   -moz-filter: blur(3px);
+		    -ms-filter: blur(3px);
+		     -o-filter: blur(3px);
+		        filter: blur(3px);
 	}
 	.no-blur.avgrund-active .avgrund-contents {
 		-webkit-filter: none;
@@ -53,7 +51,8 @@
 	}
 
 .avgrund-popup {
-	position: absolute;
+	display: block;
+	position: fixed;
 	width: 340px;
 	height: 180px;
 	left: 50%;
@@ -65,7 +64,7 @@
 	padding: 20px;
 
 	background: white;
-	box-shadow: 0px 0px 20px rgba( 150, 150, 150, 0.7 );
+	box-shadow: 0px 0px 20px rgba( 150, 150, 150, 0.9 );
 	border-radius: 12px;
 
 	-webkit-transform: scale( 0.8 );

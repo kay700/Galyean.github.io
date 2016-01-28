@@ -1149,6 +1149,7 @@ hr {
 	color: #c7c7c7; }
 
 .post-meta__date {
+	color: #CD5C5C;
 	margin-right: .5em; }
 
 .post-meta__tags {
@@ -1191,9 +1192,10 @@ hr {
 	vertical-align: middle; }
 
 .panel-title {
+	
 	margin: 0 0 5px 0;
-	font-size: 2.5em;
-	letter-spacing: 4px;
+	font-size: 1.8em;
+	letter-spacing: 2px;
 	color: #FFF; }
 
 .panel-subtitle {
@@ -1454,7 +1456,7 @@ i {
 
 .post-list__meta--date {
 	margin-right: .5em;
-	color: #c7c7c7; }
+	color: #CD5C5C; }
 
 .post-list__meta--tags {
 	margin-left: .5em; }
@@ -1566,7 +1568,7 @@ input[type="tel"] {
 		width: 70px; }
 
 	.panel-title {
-		font-size: 2em; }
+		font-size: 1.5em; }
 
 	.panel-subtitle {
 		font-size: 1em; }
