@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+  
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,8 +47,12 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000//tags/">
   <link rel="alternate" type="application/rss+xml" title="Galyean" href="/feed.xml">
-  <meta name="viewport" content="width=300, user-scalable=yes">
-  <!--<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
+</head>
+
+
+  <body>
+      <meta name="viewport" content="width=400, user-scalable=no">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/demo.css">
   <link rel="stylesheet" href="/css/avgrund.css">
   <script type="text/javascript" src="/js/avgrund.js"></script>
@@ -58,32 +64,36 @@
 		Avgrund.hide();
 		}
   </script>
-</head>
+  <div id="default-popup" class="avgrund-popup">
+	<h2>联系我(Contact Me)</h2>
+         <p>
+		邮箱(E_mail):  i_am_path@163.com
+	</p>
+         <p>
+		QQ:  822686918
+	</p>
+         <p>
+		Skype:  
+	</p>
+    <div style="float:right">
+		<button onclick="javascript:closeDialog();">Close</button>
+    </div>
+  </div>
 
-
-  <body>
     
 <span class="mobile btn-mobile-menu">
   <i class="icon icon-list btn-mobile-menu__icon"></i>
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
 <header class="panel-cover" style="background-image: url(/images/cover.jpg)">
-  <script>
-	function openDialog() {
-		Avgrund.show( "#default-popup" );
-		}
-		function closeDialog() {
-		Avgrund.hide();
-		}
-  </script>
+
   <div class="panel-main">
     <div class="panel-main__inner panel-inverted">
-    <aside id="default-popup" class="avgrund-popup">
-	<h2>That's all, folks</h2>
-		<p>You can hit ESC or click outside to close the modal. Give it a go to see the reverse transition.</p>
-		<p>If you like this you would probably enjoy <a href="http://lab.hakim.se/meny">Meny</a>, <a href="http://lab.hakim.se/reveal-js">reveal.js</a> and <a href="http://lab.hakim.se/scroll-effects">stroll.js</a>.</p>
-		<button onclick="javascript:closeDialog();">Close</button>
-	</aside>
+
+
+
+
+
     <div class="panel-main__content">
 
         <a href="/" title="link to home of Galyean">
@@ -154,8 +164,8 @@
 
     <div class="panel-cover--overlay"></div>
   </div>
-
 </header>
+
 
 
     <div class="content-wrapper">
@@ -199,5 +209,6 @@
 
 
     </div>
+
   </body>
 </html>

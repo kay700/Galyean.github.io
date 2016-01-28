@@ -1,0 +1,28 @@
+  <meta name="viewport" content="width=400, user-scalable=no">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/demo.css">
+  <link rel="stylesheet" href="/css/avgrund.css">
+  <script type="text/javascript" src="/js/avgrund.js"></script>
+  <script>
+	function openDialog() {
+		Avgrund.show( "#default-popup" );
+		}
+		function closeDialog() {
+		Avgrund.hide();
+		}
+  </script>
+  <div id="default-popup" class="avgrund-popup">
+	<h2>联系我(Contact Me)</h2>
+         <p>
+		邮箱(E_mail):  i_am_path@163.com
+	</p>
+         <p>
+		QQ:  822686918
+	</p>
+         <p>
+		QQ:  822686918
+	</p>
+    <div style="float:right">
+		<button onclick="javascript:closeDialog();">Close</button>
+    </div>
+  </div>
