@@ -53,6 +53,7 @@
 	}
 
 .avgrund-popup {
+        display: table-cell;
 	position: absolute;
 	width: 340px;
 	height: 180px;

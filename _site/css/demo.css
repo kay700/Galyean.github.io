@@ -3,21 +3,23 @@
  * try and use Avgrund in your project, don't include these.
  */
 
-* {
-	margin: 0;
-	padding: 0;
-}
+
 
 html,
 body {
-	height: 100%;
-	overflow: hidden;
+	width: 100%;
+	background-color: 0000;
+background-repeat: repeat;
+}
+body {
+	
+
 }
 
 html {
-	background-color: #222;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=);
-	background-repeat: repeat;
+	background-color: #000;
+
+	
 }
 
 h1,
