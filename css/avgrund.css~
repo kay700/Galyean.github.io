@@ -110,11 +110,11 @@
 	     -o-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
 
-	-webkit-transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.140);
-	   -moz-transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.140);
-	    -ms-transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.140);
-	     -o-transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.140);
-	        transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.140);
+	-webkit-transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	   -moz-transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	    -ms-transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	     -o-transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	        transition: 0.3s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 .avgrund-ready .avgrund-popup.no-transition {
 	-webkit-transition: none;

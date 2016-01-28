@@ -1,7 +1,7 @@
   
   <div id="default-popup" class="avgrund-popup">
 <meta name="viewport" content="width=400, user-scalable=yes">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
   <link rel="stylesheet" href="/css/demo.css">
   <link rel="stylesheet" href="/css/avgrund.css">
   <script type="text/javascript" src="/js/avgrund.js"></script>
