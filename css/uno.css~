@@ -754,7 +754,7 @@ body {
 
 
 .icon-social-twitter:before {
-        content:"\f1ff";}
+        content:"\f1e4";}
 
 .icon-social-vimeo:before {
 	content: "\f1e5"; }
@@ -919,11 +919,12 @@ body {
 	content: "\f21a"; }
 
 html, body {
-	height: 100%; }
+	
+	min-height: 100%; }
 
 html {
-	height: 100%;
-	max-height: 100%; }
+	
+	min-height: 100%; }
 
 body {
 	font-family: "Raleway", sans-serif;

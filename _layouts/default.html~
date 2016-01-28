@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: #000;">
 
   {% include head.html %}
-  <body>
+  <body >
     {% include boxwindow.html %}
+   <div id="whole-content" style="background-color: 0000;">
     {% include header.html %}
 
     <div class="content-wrapper">
@@ -13,6 +14,6 @@
 
       {% include footer.html %}
     </div>
-<link rel="stylesheet" href="/css/demo.css">
+</div>
   </body>
 </html>

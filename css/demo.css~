@@ -3,24 +3,26 @@
  * try and use Avgrund in your project, don't include these.
  */
 
-
-
-html,
-body {
-	width: 100%;
-	background-color: 0000;
-background-repeat: repeat;
-}
-body {
-	
-
+* {
+	margin: 0;
+	padding: 0;
 }
 
 html {
-	background-color: #000;
-
+	height: 100%;
+}
+body {
+	height: auto;
+	min-height: 100%;
 	
 }
+
+html {
+	background-color: #222;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=);
+	background-repeat: repeat;
+}
+
 
 h1,
 h2 {
