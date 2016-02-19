@@ -5,15 +5,19 @@
     <description>华中科技大学电信学院硕士,现在从事于计算机视觉方面的工作.&lt;/br&gt;I’m a student from HuaZhong University of Science and Technology in China. And I’m now working on something related to computer vision.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Feb 2016 19:26:09 +0800</pubDate>
-    <lastBuildDate>Fri, 19 Feb 2016 19:26:09 +0800</lastBuildDate>
+    <pubDate>Fri, 19 Feb 2016 20:07:35 +0800</pubDate>
+    <lastBuildDate>Fri, 19 Feb 2016 20:07:35 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>在Digitalocean上搭建代理服务</title>
-        <description>&lt;p&gt;&lt;a&gt;   &lt;em&gt;这是尝试用markdown写的第一篇文章,暂时没有想到写些什么,所以就把以前的文章先搬一篇过来凑个数,新手入门,排版很丑.&lt;/em&gt;&lt;/a&gt;
-&amp;gt;因为平时coding以及科研需要用到google,而之前常用的几个vpn服务提供商如J-Proxy等也因为管制的越来越严停止提供服务,所以索性自己买了个VPS自己搭建代理.
-&amp;gt; 之所以选择Digitalocean的主机&lt;/p&gt;
+        <description>&lt;p&gt;   &lt;em&gt;这是尝试用markdown写的第一篇文章，暂时没有想到写些什么，所以就把以前的文章先搬一篇过来凑个数，新手入门，排版很丑。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;  因为平时 coding 以及科研需要用到 google，而之前常用的几个 vpn 服务提供商如 J-Proxy 等也因为管制的越来越严停止提供服务，所以索性自己买了个 VPS 自己搭建代理。&lt;/p&gt;
+
+&lt;p&gt;  现在广泛使用的代理方式是 socks 代理，shadowsocks 就是一种很方便使用的 socks 代理，速度快，安装配置过程极其简单，而且不容易被干扰。shadowsocks 对应各平台的 gui client 在 github 上有人维护（刚去看了下，好像作者被请去喝茶所以停止更新了），&lt;a href=&quot;https://github.com/shadowsocks/shadowsocks-windows/releases&quot;&gt;window-s&lt;/a&gt;、mac、iOS和&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.github.shadowsocks&amp;amp;hl=zh_CN&quot;&gt;android&lt;/a&gt;平台上都有相应客户端。 &lt;strong&gt;PS:&lt;/strong&gt;  ios平台上只有越狱的设备才能正常使用shadowsocks，后来为了解决这个问题，我又搭建了 OpenConnect ser-ver 供 ios 设备使用，详情参考&lt;a href=&quot;http://www.fanyueciyuan.info/fq/ocserv-debian.html/comment-page-1#comments&quot;&gt;这篇博客&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;  之所以选择Digitalocean的主机，是因为GitHub的Student Developer Pack提供100刀的优惠券（当然这个要自己去&lt;a href=&quot;https://education.github.com/pack?utm_source=tuicool&quot;&gt;GitHub&lt;/a&gt;申请才行）。下面就写一下VPS的配置和Shadowsoc-ks服务的搭建。&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 20 Feb 2016 01:56:23 +0800</pubDate>
