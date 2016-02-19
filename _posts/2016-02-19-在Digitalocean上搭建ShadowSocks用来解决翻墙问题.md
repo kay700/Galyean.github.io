@@ -2,6 +2,7 @@
 layout: post
 title:  "在Digitalocean上搭建代理服务"
 date:   2016-02-19 17:56:23
+categories: jekyll update
 tags: [瞎折腾的] 
 ---
 
